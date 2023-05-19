@@ -42,7 +42,7 @@
             // txtAddress
             // 
             this.txtAddress.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(850, 80);
+            this.txtAddress.Location = new System.Drawing.Point(717, 74);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(344, 37);
             this.txtAddress.TabIndex = 52;
@@ -54,9 +54,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(550, 80);
+            this.label2.Location = new System.Drawing.Point(446, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(272, 40);
+            this.label2.Size = new System.Drawing.Size(243, 40);
             this.label2.TabIndex = 51;
             this.label2.Text = "Donor Location";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -96,9 +96,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bernard MT Condensed", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(571, 10);
+            this.label1.Location = new System.Drawing.Point(488, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(576, 52);
+            this.label1.Size = new System.Drawing.Size(559, 50);
             this.label1.TabIndex = 48;
             this.label1.Text = "SEARCH BLOOD DONOR (ADDRESS)";
             // 
@@ -132,7 +132,7 @@
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SearchBloodDonorAddress";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SearchBloodDonorAddress";
             this.Load += new System.EventHandler(this.SearchBloodDonorAddress_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
