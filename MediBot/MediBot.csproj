@@ -415,5 +415,29 @@
   <ItemGroup>
     <None Include="Resources\png-clipart-cartoon-hospital-medical-medical-mark.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health-PNG-Clipart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health-PNG-Clipart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health-PNG-Clipart3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ce14e7f86c04e6c3a0c326bf883d6bf.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
