@@ -29,24 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Symptoms));
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.gunaGradientButton2 = new Guna.UI.WinForms.GunaGradientButton();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
             this.Sprofile = new Guna.UI.WinForms.GunaGradientButton();
-            this.gunaGradientButton2 = new Guna.UI.WinForms.GunaGradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Image = global::MediBot.Properties.Resources.Health_PNG_Clipart;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(700, 12);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(315, 154);
-            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.gunaPictureBox1.TabIndex = 0;
-            this.gunaPictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -58,6 +47,42 @@
             this.label1.Size = new System.Drawing.Size(311, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Symptoms Checker";
+            // 
+            // gunaGradientButton2
+            // 
+            this.gunaGradientButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaGradientButton2.AnimationSpeed = 0.03F;
+            this.gunaGradientButton2.BaseColor1 = System.Drawing.Color.SpringGreen;
+            this.gunaGradientButton2.BaseColor2 = System.Drawing.Color.DarkSeaGreen;
+            this.gunaGradientButton2.BorderColor = System.Drawing.Color.Transparent;
+            this.gunaGradientButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaGradientButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaGradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaGradientButton2.ForeColor = System.Drawing.Color.LightSalmon;
+            this.gunaGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton2.Image")));
+            this.gunaGradientButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton2.Location = new System.Drawing.Point(700, 697);
+            this.gunaGradientButton2.Name = "gunaGradientButton2";
+            this.gunaGradientButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.gunaGradientButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gunaGradientButton2.OnHoverBorderColor = System.Drawing.Color.Transparent;
+            this.gunaGradientButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaGradientButton2.OnHoverImage = null;
+            this.gunaGradientButton2.OnPressedColor = System.Drawing.Color.PaleTurquoise;
+            this.gunaGradientButton2.Size = new System.Drawing.Size(345, 98);
+            this.gunaGradientButton2.TabIndex = 2;
+            this.gunaGradientButton2.Text = "LOG OUT";
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Image = global::MediBot.Properties.Resources.Health_PNG_Clipart;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(700, 12);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(315, 154);
+            this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gunaPictureBox1.TabIndex = 0;
+            this.gunaPictureBox1.TabStop = false;
             // 
             // gunaGradientButton1
             // 
@@ -85,6 +110,7 @@
             this.gunaGradientButton1.Size = new System.Drawing.Size(294, 98);
             this.gunaGradientButton1.TabIndex = 2;
             this.gunaGradientButton1.Text = "Symptoms";
+            this.gunaGradientButton1.Click += new System.EventHandler(this.gunaGradientButton1_Click);
             // 
             // Sprofile
             // 
@@ -110,31 +136,6 @@
             this.Sprofile.Size = new System.Drawing.Size(345, 98);
             this.Sprofile.TabIndex = 2;
             this.Sprofile.Text = "Profile";
-            // 
-            // gunaGradientButton2
-            // 
-            this.gunaGradientButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaGradientButton2.AnimationSpeed = 0.03F;
-            this.gunaGradientButton2.BaseColor1 = System.Drawing.Color.SpringGreen;
-            this.gunaGradientButton2.BaseColor2 = System.Drawing.Color.DarkSeaGreen;
-            this.gunaGradientButton2.BorderColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaGradientButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaGradientButton2.ForeColor = System.Drawing.Color.LightSalmon;
-            this.gunaGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaGradientButton2.Image")));
-            this.gunaGradientButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaGradientButton2.Location = new System.Drawing.Point(700, 697);
-            this.gunaGradientButton2.Name = "gunaGradientButton2";
-            this.gunaGradientButton2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.gunaGradientButton2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.gunaGradientButton2.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.gunaGradientButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaGradientButton2.OnHoverImage = null;
-            this.gunaGradientButton2.OnPressedColor = System.Drawing.Color.PaleTurquoise;
-            this.gunaGradientButton2.Size = new System.Drawing.Size(345, 98);
-            this.gunaGradientButton2.TabIndex = 2;
-            this.gunaGradientButton2.Text = "LOG OUT";
             // 
             // Symptoms
             // 
