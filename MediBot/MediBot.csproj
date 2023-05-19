@@ -113,6 +113,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="function.cs" />
     <Compile Include="function1.cs" />
     <Compile Include="medloading.cs">
       <SubType>Form</SubType>
@@ -288,6 +289,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SearchBloodDonorByBlood.resx">
       <DependentUpon>SearchBloodDonorByBlood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDecrease.resx">
+      <DependentUpon>StockDecrease.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateDonorDetails.resx">
       <DependentUpon>UpdateDonorDetails.cs</DependentUpon>
