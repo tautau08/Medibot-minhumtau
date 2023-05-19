@@ -16,5 +16,10 @@ namespace MediBot.Properties
         {
             InitializeComponent();
         }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

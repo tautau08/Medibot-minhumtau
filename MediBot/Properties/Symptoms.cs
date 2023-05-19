@@ -16,5 +16,13 @@ namespace MediBot.Properties
         {
             InitializeComponent();
         }
+
+        private void gunaGradientButton1_Click(object sender, EventArgs e)
+        {
+            Abdoment abdoment= new Abdoment();
+            abdoment.Show();
+            this.Close();
+
+        }
     }
 }
