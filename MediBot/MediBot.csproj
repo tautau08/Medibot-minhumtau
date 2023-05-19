@@ -296,6 +296,9 @@
     <EmbeddedResource Include="StockDecrease.resx">
       <DependentUpon>StockDecrease.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StockIncrease.resx">
+      <DependentUpon>StockIncrease.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateDonorDetails.resx">
       <DependentUpon>UpdateDonorDetails.cs</DependentUpon>
     </EmbeddedResource>
