@@ -51,8 +51,17 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="XanderUI">
+      <HintPath>D:\Users\User\Downloads\XanderUI\XanderUI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewDonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewDonor.Designer.cs">
+      <DependentUpon>AddNewDonor.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdministratorUC\UC_adduser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -71,8 +80,20 @@
     <Compile Include="adminlog.Designer.cs">
       <DependentUpon>adminlog.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllDonorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllDonorDetails.Designer.cs">
+      <DependentUpon>AllDonorDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Button_WOC.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeleteDonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteDonor.Designer.cs">
+      <DependentUpon>DeleteDonor.cs</DependentUpon>
     </Compile>
     <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
@@ -85,6 +106,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="function1.cs" />
     <Compile Include="medloading.cs">
@@ -150,12 +177,51 @@
     <Compile Include="RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SearchBloodDonorAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBloodDonorAddress.Designer.cs">
+      <DependentUpon>SearchBloodDonorAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBloodDonorByBlood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBloodDonorByBlood.Designer.cs">
+      <DependentUpon>SearchBloodDonorByBlood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDecrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDecrease.Designer.cs">
+      <DependentUpon>StockDecrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockIncrease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockIncrease.Designer.cs">
+      <DependentUpon>StockIncrease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDonorDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDonorDetails.Designer.cs">
+      <DependentUpon>UpdateDonorDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewuser1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="viewuser1.Designer.cs">
       <DependentUpon>viewuser1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewDonor.resx">
+      <DependentUpon>AddNewDonor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdministratorUC\UC_adduser.resx">
       <DependentUpon>UC_adduser.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +230,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminlog.resx">
       <DependentUpon>adminlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllDonorDetails.resx">
+      <DependentUpon>AllDonorDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
@@ -210,6 +282,15 @@
     </Compile>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBloodDonorAddress.resx">
+      <DependentUpon>SearchBloodDonorAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBloodDonorByBlood.resx">
+      <DependentUpon>SearchBloodDonorByBlood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDonorDetails.resx">
+      <DependentUpon>UpdateDonorDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewuser1.resx">
       <DependentUpon>viewuser1.cs</DependentUpon>
