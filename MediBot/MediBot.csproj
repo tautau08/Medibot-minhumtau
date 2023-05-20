@@ -181,6 +181,12 @@
       <DependentUpon>Abdoment.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Brain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Brain.Designer.cs">
+      <DependentUpon>Brain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Disease.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -298,6 +304,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Abdoment.resx">
       <DependentUpon>Abdoment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Brain.resx">
+      <DependentUpon>Brain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Disease.resx">
       <DependentUpon>Disease.cs</DependentUpon>
