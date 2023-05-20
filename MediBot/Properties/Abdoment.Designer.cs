@@ -376,6 +376,7 @@
             this.suggestionlist.Name = "suggestionlist";
             this.suggestionlist.Size = new System.Drawing.Size(773, 719);
             this.suggestionlist.TabIndex = 3;
+            this.suggestionlist.SelectedIndexChanged += new System.EventHandler(this.suggestionlist_SelectedIndexChanged);
             // 
             // back
             // 
@@ -449,6 +450,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Abdoment";
             this.Text = "Abdoment";
+            this.Load += new System.EventHandler(this.Abdoment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

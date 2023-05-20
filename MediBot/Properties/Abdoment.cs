@@ -168,6 +168,16 @@ namespace MediBot.Properties
 
         }
 
+        private void suggestionlist_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Abdoment_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public Dictionary<string, float> suggestion= new Dictionary<string, float>();
 
         private void check_Click(object sender, EventArgs e)
@@ -255,13 +265,22 @@ namespace MediBot.Properties
                 float avglac = lactosein / total * 100;
                 float avgkid = kidneystone / total * 100;
                 float avggas = gastritis / total * 100;
+
+                suggestion.Add("Shingle", avgshin);
+                suggestion.Add("Diarrhea", avgdia);
+                suggestion.Add("Diverticulitis", avgdiv);
+                suggestion.Add("Lactose Intolerate", avglac);
+                suggestion.Add("Kidneystone", avgkid);
+                suggestion.Add("Gastritis", avggas);
+               
+
                 foreach (KeyValuePair<string, float> kvp in suggestion.OrderByDescending(key => key.Value))
                 {
                     suggestionlist.Items.Add(kvp.Key);
                 }
             }
             catch(Exception) {
-                MessageBox.Show("Minimum one box has to be checked");
+                MessageBox.Show("Atleast one box has to be checked");
             }
 
 
