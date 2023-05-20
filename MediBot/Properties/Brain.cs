@@ -154,9 +154,13 @@ namespace MediBot.Properties
         public Dictionary<string, float> brainsug = new Dictionary<string, float>();
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+
             try
             {
-                if(speech.Checked && BFE.Checked && mem.Checked || con.Checked || head.Checked ||sei.Checked ||balance.Checked||mood.Checked||apa.Checked||agi.Checked) 
+                braininjury = 0; braintumor = 0; neurodegenerative = 0;
+
+               
+                if (speech.Checked==false && BFE.Checked==false && mem.Checked==false&& con.Checked==false  && head.Checked==false  &&sei.Checked==false&& balance.Checked==false && mood.Checked==false  && apa.Checked==false  && agi.Checked==false) 
                 {
                     throw new Exception();
                 }
@@ -196,21 +200,30 @@ namespace MediBot.Properties
                 }
                 if(apa.Checked) { neurodegenerative++; }
                 if(agi.Checked) { neurodegenerative++ ; }
+                listBox1.Items.Clear();
+                brainsug.Clear();
                 float total =braintumor+braininjury+neurodegenerative;
                 float avgtumor = braintumor / total * 100;
                 float avginjury = braininjury / total * 100;
                 float avgneu = neurodegenerative / total * 100;
+                avgtumor = (float)System.Math.Round(avgtumor, 2);
+                avginjury = (float)System.Math.Round(avginjury, 2);
+                avgneu = (float)System.Math.Round(avgneu, 2);
+
+
                 brainsug.Add("Brain Tumor", avgtumor);
+
+
                 brainsug.Add("Brain Injury", avginjury);
                 brainsug.Add("neurodegenerative", avgneu);
 
-                foreach (KeyValuePair<string, float> kvp in brainsug.OrderByDescending(key => key.Value))
+                foreach (var kk in brainsug)
                 {
-                    listBox1.Items.Add(kvp.Key);
+                    listBox1.Items.Add(kk);
                 }
 
             }
-            catch {
+            catch(Exception ex){
                 MessageBox.Show("Atleast one box has to be checked");
             }
         }
