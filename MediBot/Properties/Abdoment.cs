@@ -178,7 +178,7 @@ namespace MediBot.Properties
 
         }
 
-        public Dictionary<string, float> suggestion= new Dictionary<string, float>();
+        public  Dictionary<string, float> suggestion= new Dictionary<string, float>();
 
         private void check_Click(object sender, EventArgs e)
         {
@@ -186,7 +186,10 @@ namespace MediBot.Properties
             suggestion.Clear();
             try
             {
-                if(fever.Checked  && LApain.Checked && RApain.Checked && nausea.Checked && bloating.Checked&& burping.Checked &&heartburn.Checked&&uncomfortable.Checked&&FFB.Checked&&PainUrine.Checked&&itiching.Checked&&rash.Checked&&loose.Checked)
+                diverticulitis = 0; gastritis = 0; lactosein = 0; shingles = 0; kidneystone = 0; diarrhea = 0;
+        suggestion.Clear();
+                suggestionlist.Items.Clear();
+                if (fever.Checked ==false && LApain.Checked ==false && RApain.Checked==false&& nausea.Checked==false && bloating.Checked==false&& burping.Checked==false &&heartburn.Checked==false&&uncomfortable.Checked==false&&FFB.Checked==false&&PainUrine.Checked==false&&itiching.Checked==false&&rash.Checked==false&&loose.Checked==false)
                 {
                     throw new Exception();
                 }
@@ -265,21 +268,32 @@ namespace MediBot.Properties
                 float avglac = lactosein / total * 100;
                 float avgkid = kidneystone / total * 100;
                 float avggas = gastritis / total * 100;
-
+                avgshin = (float)System.Math.Round(avgshin, 2);
+                avgdia = (float)System.Math.Round(avgdia, 2);
+                avgdiv = (float)System.Math.Round(avgdiv, 2);
+                avglac = (float)System.Math.Round(avglac, 2);
+                avgkid = (float)System.Math.Round(avgkid, 2);
+                avggas = (float)System.Math.Round(avggas, 2);
                 suggestion.Add("Shingle", avgshin);
+              
                 suggestion.Add("Diarrhea", avgdia);
-                suggestion.Add("Diverticulitis", avgdiv);
-                suggestion.Add("Lactose Intolerate", avglac);
-                suggestion.Add("Kidneystone", avgkid);
-                suggestion.Add("Gastritis", avggas);
                
+                suggestion.Add("Diverticulitis", avgdiv);
+                
+                suggestion.Add("Lactose Intolerate", avglac);
+               
+                suggestion.Add("Kidneystone", avgkid);
+             
+                suggestion.Add("Gastritis", avggas);
+              
 
-                foreach (KeyValuePair<string, float> kvp in suggestion.OrderByDescending(key => key.Value))
+
+                foreach (var kk in suggestion)
                 {
-                    suggestionlist.Items.Add(kvp.Key);
+                    suggestionlist.Items.Add(kk);
                 }
             }
-            catch(Exception) {
+            catch(Exception ex) {
                 MessageBox.Show("Atleast one box has to be checked");
             }
 

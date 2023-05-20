@@ -58,6 +58,8 @@
             this.suggestionlist = new System.Windows.Forms.ListBox();
             this.back = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -326,7 +328,7 @@
             // 
             // check
             // 
-            this.check.BorderRadius = 50;
+            this.check.BorderRadius = 30;
             this.check.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.check.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.check.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -334,7 +336,7 @@
             this.check.FillColor = System.Drawing.Color.MediumAquamarine;
             this.check.Font = new System.Drawing.Font("Segoe UI", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.check.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.check.Location = new System.Drawing.Point(609, 12);
+            this.check.Location = new System.Drawing.Point(609, 25);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(332, 108);
             this.check.TabIndex = 2;
@@ -370,24 +372,22 @@
             this.suggestionlist.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.suggestionlist.FormattingEnabled = true;
             this.suggestionlist.ItemHeight = 55;
-            this.suggestionlist.Items.AddRange(new object[] {
-            "The Possible diseases are"});
-            this.suggestionlist.Location = new System.Drawing.Point(537, 149);
+            this.suggestionlist.Location = new System.Drawing.Point(633, 259);
             this.suggestionlist.Name = "suggestionlist";
-            this.suggestionlist.Size = new System.Drawing.Size(773, 719);
+            this.suggestionlist.Size = new System.Drawing.Size(866, 829);
             this.suggestionlist.TabIndex = 3;
             this.suggestionlist.SelectedIndexChanged += new System.EventHandler(this.suggestionlist_SelectedIndexChanged);
             // 
             // back
             // 
-            this.back.BorderRadius = 50;
+            this.back.BorderRadius = 30;
             this.back.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.back.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.back.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.back.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.back.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back.ForeColor = System.Drawing.Color.White;
-            this.back.Location = new System.Drawing.Point(44, 12);
+            this.back.Location = new System.Drawing.Point(40, 25);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(196, 108);
             this.back.TabIndex = 4;
@@ -396,7 +396,7 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.BorderRadius = 50;
+            this.guna2Button1.BorderRadius = 30;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -404,23 +404,33 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Red;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(1009, 12);
+            this.guna2Button1.Location = new System.Drawing.Point(1127, 25);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(288, 108);
             this.guna2Button1.TabIndex = 5;
             this.guna2Button1.Text = "Clear";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.back);
+            this.panel1.Controls.Add(this.check);
+            this.panel1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.panel1.Location = new System.Drawing.Point(-6, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1505, 170);
+            this.panel1.TabIndex = 6;
+            // 
             // Abdoment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(1309, 873);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.back);
+            this.ClientSize = new System.Drawing.Size(1501, 1050);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.suggestionlist);
-            this.Controls.Add(this.check);
             this.Controls.Add(this.loose);
             this.Controls.Add(this.PainUrine);
             this.Controls.Add(this.FFB);
@@ -451,6 +461,7 @@
             this.Name = "Abdoment";
             this.Text = "Abdoment";
             this.Load += new System.EventHandler(this.Abdoment_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -488,5 +499,6 @@
         private System.Windows.Forms.ListBox suggestionlist;
         private Guna.UI2.WinForms.Guna2Button back;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
