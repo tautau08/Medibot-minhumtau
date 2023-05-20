@@ -186,7 +186,7 @@ namespace MediBot.Properties
             suggestion.Clear();
             try
             {
-                if(fever.Checked  || LApain.Checked || RApain.Checked ||nausea.Checked ||bloating.Checked||burping.Checked ||heartburn.Checked||uncomfortable.Checked||FFB.Checked||PainUrine.Checked||itiching.Checked||rash.Checked||loose.Checked)
+                if(fever.Checked  && LApain.Checked && RApain.Checked && nausea.Checked && bloating.Checked&& burping.Checked &&heartburn.Checked&&uncomfortable.Checked&&FFB.Checked&&PainUrine.Checked&&itiching.Checked&&rash.Checked&&loose.Checked)
                 {
                     throw new Exception();
                 }
