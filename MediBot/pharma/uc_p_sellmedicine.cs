@@ -92,6 +92,13 @@ namespace MediBot.pharma
             catch(Exception) {  }
         }
 
+        private void sell_purchasebtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Total Ammount is  " + totalpricelabel.Text);
+        }
+
+        
+
         private void sell_removebtn_Click(object sender, EventArgs e)
         {
             if (valueid != null)

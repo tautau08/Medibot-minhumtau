@@ -17,7 +17,12 @@ namespace MediBot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard());
+            //Application.Run(new Dashboard());
+           // Application.Run(new medpannel());
+            Application.Run(new Front_page());
+           // Application.Run(new login());
+
+
         }
     }
 }

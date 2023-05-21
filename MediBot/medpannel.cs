@@ -33,8 +33,8 @@ namespace MediBot
         }
         private void guna2GradientButton5_Click(object sender, EventArgs e)
         {
-            adminlog1.Visible = true;
-            adminlog1.BringToFront();
+            //adminlog1.Visible = true;
+            //adminlog1.BringToFront();
             uC_adduser1.Visible = true;
             loadgif.Visible = false;
             uC_dashboard1.Visible = false;
@@ -45,10 +45,9 @@ namespace MediBot
         
 
         private void guna2GradientButton4_Click(object sender, EventArgs e)
-        {
-            Form1 guna1 = new Form1();
-            guna1.Show();
-            this.Hide();
+        {   Front_page a= new Front_page();
+            a.Show();
+            this.Close();
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -70,6 +69,11 @@ namespace MediBot
 
         }
 
-        
+        private void phamacistbtn_Click(object sender, EventArgs e)
+        {
+            Pharmacist pharmacist = new Pharmacist();
+            pharmacist.Show();
+            this.Hide();
+        }
     }
 }

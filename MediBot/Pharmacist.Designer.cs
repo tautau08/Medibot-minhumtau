@@ -30,14 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnmedivaliditycheck = new Guna.UI2.WinForms.Guna2GradientButton();
             this.medi_updt_btnn = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -45,19 +39,25 @@
             this.aduserbtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uc_p_sellmedicine1 = new MediBot.pharma.uc_p_sellmedicine();
             this.uc_p_medivaliditycheck1 = new MediBot.pharma.uc_p_medivaliditycheck();
             this.uc_p_updatemedicine1 = new MediBot.pharma.uc_p_updatemedicine();
             this.viewmedi1 = new MediBot.pharma.viewmedi();
             this.auc_p_admedi1 = new MediBot.pharma.auc_p_admedi();
             this.uc__p1 = new MediBot.pharma.uc__p();
-            this.uc_p_sellmedicine1 = new MediBot.pharma.uc_p_sellmedicine();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
@@ -73,6 +73,17 @@
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1100, 780);
             this.guna2CustomGradientPanel1.TabIndex = 0;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = global::MediBot.Properties.Resources.pw1_gif1___dribbble;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(-11, 3);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(1100, 762);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2CustomGradientPanel2
             // 
@@ -93,44 +104,6 @@
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(275, 767);
             this.guna2CustomGradientPanel2.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 194);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pharmacist Pannel";
-            // 
-            // guna2CustomGradientPanel3
-            // 
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(274, 0);
-            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(1106, 764);
-            this.guna2CustomGradientPanel3.TabIndex = 1;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.guna2CustomGradientPanel1;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.guna2CustomGradientPanel1;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.guna2CustomGradientPanel1;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this.guna2CustomGradientPanel1;
-            // 
-            // guna2Elipse5
-            // 
-            this.guna2Elipse5.TargetControl = this.guna2CustomGradientPanel1;
             // 
             // guna2GradientButton5
             // 
@@ -341,6 +314,17 @@
             this.btnDashboard.UseTransparentBackground = true;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(37, 194);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(185, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Pharmacist Pannel";
+            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -356,20 +340,44 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
             // 
-            // guna2PictureBox2
+            // guna2CustomGradientPanel3
             // 
-            this.guna2PictureBox2.Image = global::MediBot.Properties.Resources.pw1_gif1___dribbble;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(-11, 3);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(1100, 762);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(274, 0);
+            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(1106, 764);
+            this.guna2CustomGradientPanel3.TabIndex = 1;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.guna2CustomGradientPanel1;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.guna2CustomGradientPanel1;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.guna2CustomGradientPanel1;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.guna2CustomGradientPanel1;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.TargetControl = this.guna2CustomGradientPanel1;
             // 
             // guna2Elipse6
             // 
             this.guna2Elipse6.TargetControl = this.guna2CustomGradientPanel1;
+            // 
+            // uc_p_sellmedicine1
+            // 
+            this.uc_p_sellmedicine1.BackColor = System.Drawing.Color.White;
+            this.uc_p_sellmedicine1.Location = new System.Drawing.Point(-3, 1);
+            this.uc_p_sellmedicine1.Name = "uc_p_sellmedicine1";
+            this.uc_p_sellmedicine1.Size = new System.Drawing.Size(1104, 770);
+            this.uc_p_sellmedicine1.TabIndex = 6;
             // 
             // uc_p_medivaliditycheck1
             // 
@@ -411,14 +419,6 @@
             this.uc__p1.Size = new System.Drawing.Size(1100, 762);
             this.uc__p1.TabIndex = 1;
             // 
-            // uc_p_sellmedicine1
-            // 
-            this.uc_p_sellmedicine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.uc_p_sellmedicine1.Location = new System.Drawing.Point(-1, 1);
-            this.uc_p_sellmedicine1.Name = "uc_p_sellmedicine1";
-            this.uc_p_sellmedicine1.Size = new System.Drawing.Size(1104, 770);
-            this.uc_p_sellmedicine1.TabIndex = 6;
-            // 
             // Pharmacist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -432,10 +432,10 @@
             this.Text = "Pharmacist";
             this.Load += new System.EventHandler(this.Pharmacist_Load);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

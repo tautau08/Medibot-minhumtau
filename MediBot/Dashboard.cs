@@ -78,8 +78,8 @@ namespace MediBot
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 fm = new Form1();
-            fm.Show();
+            Front_page fp = new Front_page();
+            fp.Show();
             this.Hide();
         }
 

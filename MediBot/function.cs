@@ -14,7 +14,7 @@ namespace MediBot
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-I0BR2CB\\SQLEXPRESS; database = bloodbank; integrated security = True";
+            con.ConnectionString = "data source = DESKTOP-ORTVPNQ\\SQLEXPRESS; database = bloodbank; integrated security = True";
             return con;
         }
 
