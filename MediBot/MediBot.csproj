@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI">
-      <HintPath>F:\OOC Project\MediBot\MediBot\Libraries\Guna.UI.dll</HintPath>
+      <HintPath>..\..\..\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
@@ -56,7 +56,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="XanderUI">
-      <HintPath>D:\Users\User\Downloads\XanderUI\XanderUI.dll</HintPath>
+      <HintPath>..\..\..\XanderUI\XanderUI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -117,8 +117,20 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Front page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front page.Designer.cs">
+      <DependentUpon>Front page.cs</DependentUpon>
+    </Compile>
     <Compile Include="function.cs" />
     <Compile Include="function1.cs" />
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
     <Compile Include="medloading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -268,6 +280,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front page.resx">
+      <DependentUpon>Front page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="medloading.resx">
       <DependentUpon>medloading.cs</DependentUpon>
@@ -550,6 +568,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5ce14e7f86c04e6c3a0c326bf883d6bf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2689951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\front.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\front1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBA_1_patient_care.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20200824-28131-1jd9nj33.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_contigo_medicines1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20200824-28131-1jd9nj34.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EBA_1_patient_care1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\covid_asymptomic_NPR_10Apr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dribble-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drupal_v3.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

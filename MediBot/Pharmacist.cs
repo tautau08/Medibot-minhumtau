@@ -26,8 +26,7 @@ namespace MediBot
 
         private void guna2GradientButton4_Click(object sender, EventArgs e)
         {
-            Form1 a=new Form1();
-            a.Show();
+            
             this.Close();
             
         }

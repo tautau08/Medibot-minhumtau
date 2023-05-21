@@ -73,6 +73,16 @@ namespace MediBot.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2689951 {
+            get {
+                object obj = ResourceManager.GetObject("2689951", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5565956 {
             get {
                 object obj = ResourceManager.GetObject("5565956", resourceCulture);
@@ -116,6 +126,16 @@ namespace MediBot.Properties {
         internal static System.Drawing.Bitmap _removebg_preview__2_ {
             get {
                 object obj = ResourceManager.GetObject("-removebg-preview (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap covid_asymptomic_NPR_10Apr {
+            get {
+                object obj = ResourceManager.GetObject("covid_asymptomic_NPR_10Apr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +253,16 @@ namespace MediBot.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__7_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (7)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__9_ {
             get {
                 object obj = ResourceManager.GetObject("download (9)", resourceCulture);
@@ -333,9 +363,89 @@ namespace MediBot.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dribble_1 {
+            get {
+                object obj = ResourceManager.GetObject("dribble-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drupal_v3 {
+            get {
+                object obj = ResourceManager.GetObject("drupal_v3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EBA_1_patient_care {
+            get {
+                object obj = ResourceManager.GetObject("EBA_1_patient_care", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EBA_1_patient_care1 {
+            get {
+                object obj = ResourceManager.GetObject("EBA_1_patient_care1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap front {
+            get {
+                object obj = ResourceManager.GetObject("front", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap front1 {
+            get {
+                object obj = ResourceManager.GetObject("front1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gif_2 {
+            get {
+                object obj = ResourceManager.GetObject("gif_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gif_contigo_medicines {
             get {
                 object obj = ResourceManager.GetObject("gif_contigo_medicines", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gif_contigo_medicines1 {
+            get {
+                object obj = ResourceManager.GetObject("gif_contigo_medicines1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +516,26 @@ namespace MediBot.Properties {
         internal static System.Drawing.Bitmap image_processing20200824_28131_1jd9nj32 {
             get {
                 object obj = ResourceManager.GetObject("image_processing20200824-28131-1jd9nj32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20200824_28131_1jd9nj33 {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20200824-28131-1jd9nj33", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20200824_28131_1jd9nj34 {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20200824-28131-1jd9nj34", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +636,16 @@ namespace MediBot.Properties {
         internal static System.Drawing.Bitmap images__4_1 {
             get {
                 object obj = ResourceManager.GetObject("images (4)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__4_2 {
+            get {
+                object obj = ResourceManager.GetObject("images (4)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
